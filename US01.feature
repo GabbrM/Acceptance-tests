@@ -6,7 +6,7 @@ Feature: US01: Visualización del desempeño de los empleados
     Scenario: Elige visualizar la asistencia del empleado
     Given que el CEO se encuentra en la lista de los empleados
     When el CEO escoge al empleado a visualizar
-    Then el CEO es redirigido al cuadro de asistenci detallada del empleado
+    Then el CEO es redirigido al cuadro de asistencia detallada del empleado
 Examples:
 |	    Lista de empleados     |
 |     Empleado seleccionado    |
