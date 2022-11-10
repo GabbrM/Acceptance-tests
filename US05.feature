@@ -1,7 +1,7 @@
 Feature: US05: Reporte de actividades semanales generales
 
     Como CEO quiero recibir cada semana los reportes de activiades generales 
-    para ver el progreso de la emprea en ese lapso de días
+    para ver el progreso de la emprea en ese lapso de días 
 
     Scenario: Reporte general de cada área de trabajo
     Given que el CEO se encuentra en el menú de opciones

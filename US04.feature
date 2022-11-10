@@ -1,7 +1,7 @@
 Feature: US04: Interacción con los empleados
 
     Como CEO quiero enviar anuncios a los empleados para notificar 
-    alguna observación o felicitaciones por el desempeño
+    alguna observación o felicitaciones por el desempeño 
 
     Scenario: Anuncio por notificación de la aplicacion
     Given que el CEO selecciona la opcion de anuncios

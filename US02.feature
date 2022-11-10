@@ -1,7 +1,7 @@
 Feature: US02: Verificación del uso correcto de los bienes materiales de la empresa
 
     Como CEO quiero tener acceso al estado de los bienes materiales de la empresa 
-    para poder verificar el correcto funcionamiento
+    para poder verificar el correcto funcionamiento 
 
     Scenario: Comprobación del estado de la maquinaria
     Given que el CEO se encuentra en el menú de opciones
@@ -10,8 +10,8 @@ Feature: US02: Verificación del uso correcto de los bienes materiales de la emp
     Then se muestran los datos de la máquina, tiempo de uso 
     And la fecha en que se hizo mantenimiento por última vez
 Examples:
-    | Menú de opciones      |
-    | Maquina seleccionada  | 
+    | Menú de opciones     |
+    | Maquina seleccionada | 
 
     Scenario: Registro de fallos en alguna máquina
     Given que el CEO se encuentre en el menú de opciones
@@ -19,8 +19,8 @@ Examples:
     And escoge la opción de informar un fallo en la máquina
     Then se muestra un formulario para seleccionar e ingresar los datos del problema y la máquina
 Examples:
-    | Menú de opciones      | Fallo en la máquina  | 
-    | Maquina seleccionada  | Ingresar datos       | 
+    | Menú de opciones     | Fallo en la máquina  | 
+    | Maquina seleccionada | Ingresar datos       | 
 
     Scenario: No selecciona una máquina al informar uan fallo
     Given el CEO no especifica la máquina con el fallo

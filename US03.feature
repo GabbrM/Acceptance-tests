@@ -1,7 +1,7 @@
 Feature: US03: Registrar y/o generar horarios y roles de los empleados
 
     Como CEO quiero registrar manual o automáticamente los horarios y roles de los empleados
-    para evitar los cruces de horarios y facilitar el registro
+    para evitar los cruces de horarios y facilitar el registro 
 
     Scenario: Generacion del cronograma automático para empleados
     Given que el CEO se encuentra en el menú de opciones
