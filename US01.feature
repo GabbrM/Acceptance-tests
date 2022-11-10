@@ -1,4 +1,7 @@
-Feature: US01: Como Ceo quiero tener acceso a los registros de desempeño de los empleados para visualizar y mejorar la eficacia de la empresa
+Feature: US01: Visualización del desempeño de los empleados
+
+    Como CEO quiero tener acceso a los registros de desempeño de los empleados 
+    para visualizar y mejorar la eficacia de la empresa
 
     Scenario: Elige visualizar la asistencia del empleado
     Given que el CEO se encuentra en la lista de los empleados

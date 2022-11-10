@@ -1,4 +1,7 @@
-Feature: US02: Como CEO quiero tener acceso al estado de los bienes materiales de la empresa para poder verificar el correcto funcionamiento
+Feature: US02: Verificación del uso correcto de los bienes materiales de la empresa
+
+    Como CEO quiero tener acceso al estado de los bienes materiales de la empresa 
+    para poder verificar el correcto funcionamiento
 
     Scenario: Comprobación del estado de la maquinaria
     Given que el CEO se encuentra en el menú de opciones
